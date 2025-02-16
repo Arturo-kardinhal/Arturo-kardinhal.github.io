@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4.4 El protocolo TCP/IP</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+          <ul>
+            <li><a href="../index.html">4.1 Orígenes de Internet</a></li>
+            <li><a href="42.html">4.2 Causas del BOOM de Internet</a></li>
+            <li><a href="43.html">4.3 Funcionamiento de Internet</a></li>
+            <li><a href="44.html">4.4 El protocolo TCP/IP</a></li>
+            <li><a href="45.html">4.5 Protocolos usados en Internet</a></li>
+            <li><a href="46.html">4.6 Direcciones IP y nombres de Dominio</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <main>
+    <article>
+      <h1>4.4 El protocolo TCP/IP</h1>
+      <p>
+        TCP/IP, siglas de <strong>Transmission Control Protocol/Internet Protocol</strong>, es el conjunto de normas que permite la comunicación entre dispositivos en redes como Internet.
+      </p>
+      <ul>
+        <li>
+          <strong>IP:</strong> Se encarga de asignar y gestionar las direcciones de cada dispositivo, funcionando como el "número de teléfono" que indica a dónde deben enviarse los datos.
+        </li>
+        <li>
+          <strong>TCP:</strong> Garantiza que la información se transmita de manera correcta y ordenada. Divide los mensajes en pequeños paquetes, los envía de forma independiente y se asegura de que lleguen intactos y en el orden correcto para reensamblarlos en el destino.
+        </li>
+      </ul>
+      <p>Este proceso se organiza en cuatro capas:</p>
+      <ol>
+        <li><strong>Capa de enlace:</strong> Maneja la transmisión física de los datos (por ejemplo, a través de cables Ethernet o redes inalámbricas).</li>
+        <li><strong>Capa de Internet:</strong> Se encarga del enrutamiento, guiando los paquetes a través de diferentes redes hasta su destino.</li>
+        <li><strong>Capa de transporte:</strong> Proporciona la conexión fiable entre dispositivos, gestionando el envío y la recepción de paquetes y corrigiendo errores.</li>
+        <li><strong>Capa de aplicación:</strong> Es la interfaz con el usuario, donde operan aplicaciones que necesitan comunicarse por red (correo electrónico, streaming, etc.).</li>
+      </ol>
+    </article>
+    <img src="../images/modelo_tcpip.webp" alt="no carga" class="protocol-img" width="40%" height="40%">
+  </main>
+
+  <footer>
+    <p>Página Tema 4 Redes - Arturo Sepúlveda</p>
+  </footer>
+</body>
+</html>

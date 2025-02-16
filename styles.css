@@ -1,0 +1,107 @@
+/* Importar Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado y menú de navegación */
+header {
+  background: linear-gradient(90deg, #2C3E50, #4CA1AF);
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav.menu ul li {
+  margin: 0 20px;
+}
+
+nav.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav.menu ul li a:hover {
+  color: #ffeb3b;
+  transform: translateY(-2px);
+}
+
+/* Contenido principal */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  color: #2C3E50;
+  margin-bottom: 15px;
+}
+
+p, li {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Listados */
+ul, ol {
+  margin-left: 20px;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #2C3E50;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  nav.menu ul {
+    flex-direction: column;
+  }
+  
+  nav.menu ul li {
+    margin: 10px 0;
+  }
+  
+  main {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+/* Estilos para imágenes de los protocolos */
+.protocol-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
